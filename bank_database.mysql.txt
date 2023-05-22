@@ -1,0 +1,9 @@
+create databases bank_database;
+
+use bank_database;
+
+create table customer_details (First_Name varchar(30),Last_name varchar(30),username varchar(20) unique key,password varchar(20),Account_num varchar(50) primary key,pin int(10),phone varchar(15) unique key,address varchar(100),balance int(100));
+
+insert into customer_details values(Test,one,test,123,93842105,1010,9898989898,abc,48450);
+
+
